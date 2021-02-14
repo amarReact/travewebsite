@@ -23,7 +23,7 @@ export default class Sidebartop extends Component{
               },
               {
                 text: "Stats", 
-                icon: <i className='fa fa-bar-chart' aria-hidden='true'></i>
+                icon: <i class="fas fa-chart-bar"></i>
               }
            ]
         }

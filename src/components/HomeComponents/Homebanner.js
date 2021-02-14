@@ -14,8 +14,8 @@ const Homebanner =()=>{
 								<h3><i className="fa fa-map-marker" aria-hidden="true"></i> New Delhi, India</h3>
 								<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in .</p>
 								<ul>
-									<li><i className="fa fa-smile-o" aria-hidden="true"></i> Wishlist(10)</li>
-									<li><i className="fa fa-smile-o" aria-hidden="true"></i> Budy List(55)</li>
+									<li><i class="fas fa-smile"></i> Wishlist(10)</li>
+									<li><i class="fad fa-dharmachakra"></i> Budy List(55)</li>
 									<li><i className="fa fa-user" aria-hidden="true"></i> Following (20)</li>
 									<li><i className="fa fa-user" aria-hidden="true"></i> Following (125)</li>
 								</ul>
