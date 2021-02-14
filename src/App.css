@@ -1,0 +1,212 @@
+*{
+	margin: 0px; padding: 0px; outline: 0; list-style: none;
+	font-family: 'Open Sans'; box-sizing: border-box;
+}
+
+body{  font-family: 'Open Sans'; font-size: 14px;}
+
+.container{ width: 960px; margin: auto; display: block; }
+#inputDiv{ width: 347px; height: 25px; border: 2px solid #000000; border-radius:20px; padding: 0 0 0 20px; }
+#header{display: flex; width: 100%; background: #01addf; }
+#searchDiv{ position: relative; }
+.centerhead{ display: flex; align-items: center; justify-content: space-between; width: 100%; }
+#submitDv{ background: url('/images/search.png') no-repeat left top;    border: 0px; font-size: 0px; width: 13px; height: 13px; position: absolute; left: 6px; top: 7px; bottom: 0px; }
+.userName{ float: left; padding: 10px 0 0 0 }
+.userName label{ width: 34px; height: 34px; overflow: hidden; float: left; margin: 0 8px 0 0 }
+.userName label img{ max-width: 100%; height: auto; }
+.userName p{ color:#fff; padding: 10px 0 0 6px; width: 150px; }
+
+.lastHeader{ float: right; display: flex; border-right: 2px solid #fff;  }
+.lastHeader li{ border-left: 2px solid #fff; color: #fff; height: 58px; padding: 0 12px; display: flex; align-items: center; position: relative; }
+.lastHeader li a{ color: #fff; text-decoration: none; }
+.lastHeader li span {position: absolute; left: 20px; top: 13px; color: #333; font-size: 12px; }
+
+.bannerDiv{ width: 100%; position: relative; margin: 0 0 27px 0; }
+.bannerImg{ width: 100%; height: auto; display: block; }
+li.feeds i{ margin-right: 5px; }
+
+.bannerCont{ width: 100%; position: relative; background: rgba(0,0,0, 0.2); position: absolute; left: 0px; bottom: 0px; padding: 10px 0; color: #fff }
+.bantext{ color: #fff }
+
+.leftban{ float: left; width: 630px; }
+.imgdiv{ float: left; width: 95px; margin: 0 15px 0 0 }
+
+.follow{ float: left; background: #3e9304; color: #fff; font-size: 12px; line-height: 17px; width: 72px; height:17px; text-align: center; text-decoration: none; font-weight: 300; margin:4px 0 0 10px; }
+.follow:hover{ text-decoration: none; background: #f1c232; color: #fff  }
+.rightban{ float: right; width: 235px; text-align: right; margin: 7px 0 0 0 }
+.rightban h3{ font-size: 20px; }
+
+.bantext{ float: left; width: 520px; }
+.bantext h2{ padding-bottom: 5px; float: left; width: 100%; }
+.bantext h2 span{ float: left; }
+.bantext h3{ padding-bottom: 5px; font-size: 12px; }
+.bantext h3 i{ margin:0 5px 0 0; }
+.bantext p{ padding-bottom: 5px; font-size: 12px; font-weight: 300 }
+.bantext ul{ float: left; width: 100%; }
+.bantext ul li{ float: left; margin: 0 10px 0 0; font-size: 12px; }
+.bantext ul li i{ font-size: 20px; margin: 3px 5px 0 0; vertical-align: -2px}
+
+.wificont{ float: left; width: 100%; padding:  10px 0; }
+.wifidiv{ float: left; margin: 0 0 0 15px; }
+.wifidiv i{ margin: 0 5px 0 0 }
+.progressdiv{ float: right; width: 172px; border: 2px solid #000;  height: 14px; background: #fff }
+.progressfill{ float: left; width: 126px; background: #3e9304; height: 100%; }
+
+.social{ float: right; }
+.social li{ float: left; margin: 0 0 0 10px }
+.social li a{ color: #fff; font-size: 20px;  }
+
+.leftContent{ float: left; width: 668px; }
+.rightContent{ float: right; width: 258px; }
+
+.listdiv1{ float: left; width: 100%; background: #cfe2f3;  margin: 0 0 15px 0 }
+.listdiv1 ul{ float: left; width: 100%;padding: 10px; }
+.listdiv1 ul li{ float: left; width: 100%; position: relative; padding: 0 0 7px 35px; }
+.listdiv1 ul li a{ font-size: 20px; color: #333; text-decoration: none; }
+.listdiv1 ul li a:hover{ color: #000000 }
+.listdiv1 ul li i{ position: absolute; left: 0px; top: 0px; font-size: 23px; }
+
+.listdiv2{ float: left; width: 100%; background: #cfe2f3;  margin: 0 0 15px 0 }
+.listdiv2 ul{ float: left; width: 100%; padding: 5px; height: 197px; overflow-y: scroll; overflow-x: hidden; }
+.listdiv2 ul li{ float: left; width: 100%;font-size: 12px; line-height: 16px; margin: 0 0 10px 0  }
+.listdiv2 ul li img{ float: left; margin: 0 5px 0 0 }
+.listdiv2 ul li a{ color: #000; text-decoration: none;  }
+.listdiv2 ul li span{ display: block;  }
+.listdiv2 h3{background: #eeeeee; font-weight: 300; text-align: center; font-size: 12px;padding: 10px;}
+
+
+.tab{ float: left; width: 100%; border-bottom: 2px dotted #000; margin: 0 0 15px 0 }
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 0px; height: 25px;
+  transition: 0.3s; line-height: 25px;
+  font-size: 13px; margin: 0px 0px 0px -1px; 
+  
+}
+
+.lefttab{ float: left; }
+.righttab{ float: right; }
+
+.tab button span{ float: left;  border-top: 2px solid #000; height: 25px; padding: 0 3px; }
+
+
+
+
+.tabcontent { float: left; width: 100%; min-height: 750px; }
+
+.topcontents{ float: left; width: 100%; padding: 0 0 25px 0 }
+.tabcontentIn{ float: left; width: 100%; }
+
+.loopbox{ float: left; width: 100%; background: #f3f3f3; padding: 8px; margin: 0 0 7px 0; position: relative; }
+.loopbox:after{ content: ""; position: absolute; left: -20px; top: 15px; height: 100%; background: #000000; width: 2px;  }
+.loopbox:last-child:after{ height: 50px; }
+
+.tabuserDetail{ float: left; width: 100%; font-size: 12px; padding: 0 0 10px 0}
+.tabuserDetail img{ float: left; margin: 0 10px 4px 0 }
+.tabuserDetail h3{ padding: 0 0 4px 0  }
+.tabuserDetail span{ float: left; width: 100%;  }
+
+.imgloop{ float: left; width: 100%; padding: 0 0 10px 0; }
+.imgloop li{ float: left; margin: 0 10px 0 0 }
+
+#middelDiv{ float: left; width: 100%; }
+#footerdiv{ background: #f1c232; width: 100%; float: left; width: 100%; padding: 10px 0; text-align: center; margin: 50px 0 0 0  }
+#footerdiv p{ display: inline-block; color: #000; font-size: 12px;  margin: 0 60px 0 0px }
+#footerdiv a{ color: #0000ff; font-size: 12px; display: inline-block; margin: 0 0 0 60px; text-decoration: none; }
+#footerdiv a:hover{ text-decoration: underline; }
+
+.botcontent{ float: left; width: 100%; font-size: 12px; }
+.botcontent a{ color: #0000ff; text-decoration: none; }
+.botcontent a:hover{ text-decoration: underline; }
+.botcontent p{ padding: 0 0 10px 0 }
+.stardv i{ color: #ff9c0f; margin: 0 5px 0 0; font-size: 15px;  }
+
+.bigdv{ float: left; margin: 0 8px 0 0 }
+.bigcon{ display: flex; flex-direction: column; }
+
+.tpdiv{ float: left; width: 100%; padding: 0 0 5px 0 }
+.tpdiv .kazdv{ float: left; font-size: 25px; font-weight: 700; margin: 0 10px 0 0 }
+.tpdiv aside{ float: left; margin: 9px 0 0 0 }
+
+.bigcon .wishbtn {
+    float: left;
+    background: #3e9304;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300; padding: 0 10px;
+    margin: 8px 0 0 10px;
+}
+
+.bigcon .wishbtn:hover{ text-decoration: none; background: #f1c232; color: #fff }
+.loopboxLast{ float: left; width: 100%; padding: 10px 10px; display: flex; align-items: center; font-size: 20px;  }
+.loopboxLast img{ margin-right: 10px; }
+
+.positionLeft{ position: absolute; left: -30px; top: 0px; background: #fff; padding: 5px 0; z-index: 2   }
+
+.nav-tabs{ float: left;
+  width: 100%;
+  border-bottom: 2px dotted #000;
+  margin: 0 0 15px 0;}
+.nav-tabs li{ float: left;}
+.nav-tabs li a{ float: left; height: 25px; font-size: 13px; padding:0 10px; margin: 0 1px 0 0; line-height: 25px; cursor: pointer; border-top:2px solid #000; border-right:2px solid #000; border-left:2px solid #000}
+.nav-tabs li a.active{ background: #eee; color: #000;}
+
+.privacyDiv h2{ padding-top: 30px; padding-bottom: 10px; }
+
+
+@media(max-width: 1000px){
+  .container{ width: 100%; padding: 0 25px; }
+  #inputDiv{ width: 220px; }
+  .leftban{ width: 100%; }
+  .rightban{ width: 100% }
+  .bantext{ width: auto; }
+  .bantext h2{ width: auto }
+  .bantext h3 {width: auto; margin: 5px 0 0 10px; float: left; }
+  .bantext p{ clear: both; }
+  .leftContent{ width: 100%; margin-bottom: 30px; }
+  .rightContent{ width: 100% }
+  .listdiv1{ width: 32%; min-height: 232px;  }
+  .listdiv2{ width: 33%; margin-left: 1% }
+  .positionLeft{ left: -20px }
+  .loopbox::after{ left: -10px }
+}
+
+@media(max-width: 792px){
+#searchDiv {position: absolute; left: 0px; bottom: 10px; width: 94%; margin: 0 3%; }
+#header{ position: relative; padding-bottom: 50px; }
+#inputDiv{ width: 100%; }
+.bannerCont{ position: relative; float: left; background: #000; margin-bottom: 30px }
+#footerdiv p{ margin: 0 5px 0 5px }
+#footerdiv a{ margin: 0 5px 0 5px }
+}
+
+
+@media(max-width: 680px){
+ .listdiv1{ width: 100%; margin: 0 0 10px 0; min-height: inherit; }
+ .listdiv2{ width: 100%; margin: 0 0 10px 0; min-height: inherit; }
+}
+
+@media(max-width: 600px){
+ #searchDiv { left: inherit; right: 0px;  width: 50%;}
+ .userName {float: left; padding: 10px 0 0 0; position: absolute; left: 25px; bottom: 10px; }
+ .bantext{ margin-bottom: 10px; width: 100%; padding-top: 10px; }
+ .bigcon .wishbtn{ clear: both; margin-left: 0px; }
+ .tabcontent{ min-height: inherit; }
+}
+
+@media(max-width: 480px){
+.logo img{ font-weight: 13px; max-width: 120px }
+.lastHeader li{ border-left: 1px solid #fff; padding: 0 8px; }
+.bigdv img{ max-width: 50px }
+.imgloop li img{ max-width: 40px }
+}
+
